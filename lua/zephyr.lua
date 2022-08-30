@@ -299,6 +299,7 @@ local plugin_syntax = {
 	CmpItemKindKeyWord = { fg = z.red },
 	CmpItemKindText = { fg = z.light_green },
 	CmpItemKindModule = { fg = z.cyan },
+	CmpItemKindSnippet = { fg = z.orange },
 }
 
 local async_load_plugin
