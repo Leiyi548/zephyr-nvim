@@ -306,7 +306,7 @@ local plugin_syntax = {
 	CmpItemKindFunction = { fg = z.magenta },
 	CmpItemKindClass = { fg = z.orange },
 	CmpItemKindMethod = { fg = z.teal },
-	CmpItemKindKeyWord = { fg = z.red },
+	CmpItemKindKeyWord = { fg = z.gray },
 	CmpItemKindText = { fg = z.gray },
 	CmpItemKindModule = { fg = z.cyan },
 	CmpItemKindSnippet = { fg = z.gray },
