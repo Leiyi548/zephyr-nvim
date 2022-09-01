@@ -47,8 +47,8 @@ local z = {
 	orange = "#de841b",
 	blue = "#61afef",
 	cmpsidebar = "#414141",
-  cmpselectline = "#04395E",
-  cmpselectline_text = "#FEFEFE"
+	cmpselectline = "#04395E",
+	cmpselectline_text = "#FEFEFE",
 }
 
 function z.terminal_color()
@@ -104,18 +104,19 @@ local syntax = {
 	NonText = { fg = z.bg1 },
 	Whitespace = { fg = z.base4 },
 	SpecialKey = { fg = z.bg1 },
-  -- 补全框设置地方
+	-- 补全框设置地方
 	Pmenu = { fg = z.fg, bg = z.bg_popup },
 	PmenuSel = { fg = z.cmpselectline_text, bg = z.cmpselectline },
 	PmenuSelBold = { fg = z.base0, bg = z.blue },
 	PmenuSbar = { fg = z.none, bg = z.bg_popup },
 	PmenuThumb = { fg = z.violet, bg = z.cmpsidebar },
-  -- end
+	-- cmp 右边文档
+	NormalFloat = { fg = z.cmpselectline_text, bg = z.bg_popup },
+	-- end
 	WildMenu = { fg = z.bg1, bg = z.green },
 	StatusLine = { fg = z.base8, bg = z.base2 },
 	StatusLineNC = { fg = z.grey, bg = z.base2 },
 	Question = { fg = z.yellow },
-	NormalFloat = { fg = z.base8, bg = z.bg_highlight },
 	Tabline = { fg = z.base6, bg = z.base2 },
 	TabLineSel = { fg = z.fg, bg = z.blue },
 	SpellBad = { fg = z.red, bg = z.none, undercurl = true },
