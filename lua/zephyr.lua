@@ -288,18 +288,38 @@ local plugin_syntax = {
 	DiagnosticUnderlineHint = { undercurl = true, sp = z.cyan },
 
 	-- nvim-cmp
+	-- reference: https://code.visualstudio.com/docs/editor/intellisense
 	CmpItemAbbr = { fg = z.fg },
 	CmpItemAbbrMatch = { fg = "#A6E22E" },
 	CmpItemMenu = { fg = z.violet },
 	CmpItemKindVariable = { fg = z.blue },
-	CmpItemKindFiled = { fg = z.magenta },
+	CmpItemKindFiled = { fg = z.blue },
 	CmpItemKindFunction = { fg = z.yellow },
 	CmpItemKindClass = { fg = z.orange },
 	CmpItemKindMethod = { fg = z.teal },
 	CmpItemKindKeyWord = { fg = z.red },
 	CmpItemKindText = { fg = z.light_green },
 	CmpItemKindModule = { fg = z.cyan },
-	CmpItemKindSnippet = { fg = z.orange },
+	CmpItemKindSnippet = { fg = z.black },
+
+	-- nvim-navic
+	-- reference: https://code.visualstudio.com/docs/editor/intellisense
+	NavicIconsFile = { fg = z.base5 },
+	NavicIconsModule = { fg = z.base5 },
+	NavicIconsNamespace = { fg = z.fg },
+	NavicIconsPackage = { fg = z.yellow },
+	NavicIconsClass = { fg = z.bg_visual },
+	NavicIconsMethod = { fg = z.magenta },
+	NavicIconsProperty = { fg = z.magenta },
+	NavicIconsField = { fg = z.blue },
+	NavicIconsConstructor = { fg = z.cyan },
+	NavicIconsEnum = { fg = z.orange },
+	NavicIconsInterface = { fg = z.orange },
+	NavicIconsFunction = { fg = z.magenta },
+	NavicIconsVariable = { fg = z.blue },
+	NavicIconsConstants = { fg = z.base4 },
+	NavicIconsStruct = { fg = z.orange },
+	NavicIconsEvent = { fg = z.orange },
 }
 
 local async_load_plugin
