@@ -275,7 +275,7 @@ local plugin_syntax = {
 
 	TelescopeBorder = { fg = z.teal },
 	TelescopePromptBorder = { fg = z.blue },
-	TelescopeMatching = { fg = z.teal },
+	TelescopeMatching = { fg = z.blue },
 	TelescopeSelection = { fg = z.yellow, bg = z.bg_highlight, bold = true },
 	TelescopeSelectionCaret = { fg = z.yellow },
 	TelescopeMultiSelection = { fg = z.teal },
