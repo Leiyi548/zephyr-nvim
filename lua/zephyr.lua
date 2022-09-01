@@ -167,8 +167,8 @@ local syntax = {
 	Underlined = { fg = z.none, underline = true },
 
 	DashboardShortCut = { fg = z.magenta },
-	DashboardHeader = { fg = z.orange },
-	DashboardCenter = { fg = z.cyan },
+	DashboardHeader = { fg = z.blue },
+	DashboardCenter = { fg = z.gray },
 	DashboardFooter = { fg = z.yellow, bold = true },
 }
 
