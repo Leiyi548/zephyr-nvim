@@ -15,7 +15,8 @@ local z = {
 
 	bg = "#262a33",
 	bg1 = "#504945",
-	bg_popup = "#3E4556",
+	-- bg_popup = "#3E4556",
+	bg_popup = "#252526",
 	bg_highlight = "#2E323C",
 	bg_visual = "#b3deef",
 
@@ -25,7 +26,6 @@ local z = {
 	red = "#e95678",
 
 	redwine = "#d16d9e",
-	orange = "#de841b",
 	yellow = "#fac661",
 
 	light_green = "#abcf84",
@@ -33,7 +33,6 @@ local z = {
 	dark_green = "#98be65",
 
 	cyan = "#36d0e0",
-	blue = "#61afef",
 	violet = "#CBA6F7",
 	magenta = "#c678dd",
 	teal = "#1abc9c",
@@ -43,6 +42,13 @@ local z = {
 
 	bracket = "#80A0C2",
 	none = "NONE",
+	-- cmp highlight
+	gray = "#d5dee6",
+	orange = "#de841b",
+	blue = "#61afef",
+	cmpsidebar = "#414141",
+  cmpselectline = "#04395E",
+  cmpselectline_text = "#FEFEFE"
 }
 
 function z.terminal_color()
@@ -98,11 +104,13 @@ local syntax = {
 	NonText = { fg = z.bg1 },
 	Whitespace = { fg = z.base4 },
 	SpecialKey = { fg = z.bg1 },
+  -- 补全框设置地方
 	Pmenu = { fg = z.fg, bg = z.bg_popup },
-	PmenuSel = { fg = z.base0, bg = z.blue },
+	PmenuSel = { fg = z.cmpselectline_text, bg = z.cmpselectline },
 	PmenuSelBold = { fg = z.base0, bg = z.blue },
-	PmenuSbar = { fg = z.none, bg = z.base4 },
-	PmenuThumb = { fg = z.violet, bg = z.light_green },
+	PmenuSbar = { fg = z.none, bg = z.bg_popup },
+	PmenuThumb = { fg = z.violet, bg = z.cmpsidebar },
+  -- end
 	WildMenu = { fg = z.bg1, bg = z.green },
 	StatusLine = { fg = z.base8, bg = z.base2 },
 	StatusLineNC = { fg = z.grey, bg = z.base2 },
@@ -290,17 +298,17 @@ local plugin_syntax = {
 	-- nvim-cmp
 	-- reference: https://code.visualstudio.com/docs/editor/intellisense
 	CmpItemAbbr = { fg = z.fg },
-	CmpItemAbbrMatch = { fg = "#A6E22E" },
+	CmpItemAbbrMatch = { fg = z.blue },
 	CmpItemMenu = { fg = z.violet },
 	CmpItemKindVariable = { fg = z.blue },
 	CmpItemKindFiled = { fg = z.blue },
-	CmpItemKindFunction = { fg = z.yellow },
+	CmpItemKindFunction = { fg = z.magenta },
 	CmpItemKindClass = { fg = z.orange },
 	CmpItemKindMethod = { fg = z.teal },
 	CmpItemKindKeyWord = { fg = z.red },
-	CmpItemKindText = { fg = z.light_green },
+	CmpItemKindText = { fg = z.gray },
 	CmpItemKindModule = { fg = z.cyan },
-	CmpItemKindSnippet = { fg = z.black },
+	CmpItemKindSnippet = { fg = z.gray },
 
 	-- nvim-navic
 	-- reference: https://code.visualstudio.com/docs/editor/intellisense
