@@ -262,9 +262,9 @@ local plugin_syntax = {
 	LspDiagnosticsUnderlineInformation = { undercurl = true, sp = z.blue },
 	LspDiagnosticsUnderlineHint = { undercurl = true, sp = z.cyan },
 
-	LspReferenceRead = { bg = z.bg_highlight, bold = true },
-	LspReferenceText = { bg = z.bg_highlight, bold = true },
-	LspReferenceWrite = { bg = z.bg_highlight, bold = true },
+	LspReferenceRead = { bg = z.bg_highlight, underline = true },
+	LspReferenceText = { bg = z.bg_highlight, underline = true },
+	LspReferenceWrite = { bg = z.bg_highlight, underline = true },
 
 	CursorWord = { bg = z.base4, underline = true },
 
@@ -307,6 +307,7 @@ local plugin_syntax = {
 	CmpItemKindClass = { fg = z.orange },
 	CmpItemKindMethod = { fg = z.teal },
 	CmpItemKindKeyWord = { fg = z.gray },
+
 	CmpItemKindText = { fg = z.gray },
 	CmpItemKindModule = { fg = z.cyan },
 	CmpItemKindSnippet = { fg = z.gray },
@@ -329,6 +330,10 @@ local plugin_syntax = {
 	NavicIconsConstants = { fg = z.base4 },
 	NavicIconsStruct = { fg = z.orange },
 	NavicIconsEvent = { fg = z.orange },
+
+	-- illuminate
+	illuminateWord = { bg = z.bg_highlight },
+	illuminatedCurWord = { bg = z.bg_highlight, underline = true },
 }
 
 local async_load_plugin
