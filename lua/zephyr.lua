@@ -299,7 +299,7 @@ local plugin_syntax = {
 	-- nvim-cmp
 	-- reference: https://code.visualstudio.com/docs/editor/intellisense
 	CmpItemAbbr = { fg = z.fg },
-	CmpItemAbbrMatch = { fg = z.blue },
+	CmpItemAbbrMatch = { fg = z.blue, bold = true },
 	CmpItemMenu = { fg = z.violet },
 	CmpItemKindVariable = { fg = z.blue },
 	CmpItemKindFiled = { fg = z.blue },
