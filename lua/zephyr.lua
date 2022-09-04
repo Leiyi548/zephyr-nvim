@@ -92,9 +92,9 @@ local syntax = {
 	LineNr = { fg = z.base4 },
 	qfLineNr = { fg = z.cyan },
 	CursorLineNr = { fg = z.blue },
-	DiffAdd = { fg = z.dark_green, bg = z.dark_green },
-	DiffChange = { fg = z.blue, bg = z.yellow },
-	DiffDelete = { fg = z.red, bg = z.red },
+	DiffAdd = { fg = z.dark_green, bg = z.bg },
+	DiffChange = { fg = z.blue, bg = z.bg },
+	DiffDelete = { fg = z.red, bg = z.bg },
 	DiffText = { fg = z.black, bg = z.fg },
 	Directory = { fg = z.blue, bg = z.none },
 	ErrorMsg = { fg = z.red, bg = z.none, bold = true },
@@ -333,7 +333,7 @@ local plugin_syntax = {
 
 	-- illuminate
 	illuminateWord = { bg = z.bg_highlight },
-	illuminatedCurWord = { bg = z.bg_highlight, underline = true },
+	illuminatedCurWord = { bg = z.bg_highlight, undercurl = true },
 }
 
 local async_load_plugin
