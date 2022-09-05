@@ -273,7 +273,7 @@ local plugin_syntax = {
 	NvimTreeSpecialFile = { fg = z.fg, bg = z.none },
 	NvimTreeGitDirty = { fg = z.redwine },
 
-	TelescopeBorder = { fg = z.teal },
+	TelescopeBorder = { fg = z.blue },
 	TelescopePromptBorder = { fg = z.blue },
 	TelescopeMatching = { fg = z.blue },
 	TelescopeSelection = { fg = z.yellow, bg = z.bg_highlight, bold = true },
