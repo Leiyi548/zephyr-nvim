@@ -296,6 +296,9 @@ local plugin_syntax = {
 	DiagnosticUnderlineInfo = { undercurl = true, sp = z.blue },
 	DiagnosticUnderlineHint = { undercurl = true, sp = z.cyan },
 
+	-- TreesitterContext
+	TreesitterContext = { bg = z.bg_highlight },
+
 	-- nvim-cmp
 	-- reference: https://code.visualstudio.com/docs/editor/intellisense
 	CmpItemAbbr = { fg = z.fg },
