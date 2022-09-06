@@ -30,6 +30,7 @@ local z = {
 
 	cyan = "#36d0e0",
 	blue = "#61afef",
+	darkblue = "#233c58",
 	violet = "#CBA6F7",
 	magenta = "#c678dd",
 	teal = "#1abc9c",
@@ -45,31 +46,31 @@ local z = {
 return {
 	normal = {
 		a = { fg = z.bg, bg = z.blue },
-		b = { fg = z.blue, bg = z.bg },
+		b = { fg = z.fg, bg = z.darkblue },
 		c = { fg = z.blue, bg = z.bg },
 		z = { fg = z.bg, bg = z.blue },
 	},
 	insert = {
 		a = { fg = z.bg, bg = z.light_green },
-		b = { fg = z.light_green, bg = z.bg },
+		b = { fg = z.light_green, bg = z.darkblue },
 		c = { fg = z.light_green, bg = z.bg },
 		z = { fg = z.bg, bg = z.light_green },
 	},
 	visual = {
 		a = { fg = z.bg, bg = z.yellow },
-		b = { fg = z.yellow, bg = z.bg },
+		b = { fg = z.yellow, bg = z.darkblue },
 		c = { fg = z.yellow, bg = z.bg },
 		z = { fg = z.bg, bg = z.yellow },
 	},
 	command = {
 		a = { fg = z.bg, bg = z.violet },
-		b = { fg = z.violet, bg = z.bg },
+		b = { fg = z.violet, bg = z.darkblue },
 		c = { fg = z.violet, bg = z.bg },
 		z = { fg = z.bg, bg = z.violet },
 	},
 	replace = {
 		a = { fg = z.bg, bg = z.red },
-		b = { fg = z.red, bg = z.bg },
+		b = { fg = z.red, bg = z.darkblue },
 		c = { fg = z.red, bg = z.bg },
 		z = { fg = z.bg, bg = z.red },
 	},
