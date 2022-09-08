@@ -308,11 +308,11 @@ local plugin_syntax = {
 	CmpItemKindFiled = { fg = z.blue },
 	CmpItemKindFunction = { fg = z.magenta },
 	CmpItemKindClass = { fg = z.orange },
-	CmpItemKindMethod = { fg = z.teal },
+	CmpItemKindMethod = { fg = z.magenta },
 	CmpItemKindKeyWord = { fg = z.gray },
 
 	CmpItemKindText = { fg = z.gray },
-	CmpItemKindModule = { fg = z.cyan },
+	CmpItemKindModule = { fg = z.gray },
 	CmpItemKindSnippet = { fg = z.gray },
 
 	-- nvim-navic
