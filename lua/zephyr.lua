@@ -59,8 +59,10 @@ function z.terminal_color()
 	vim.g.terminal_color_4 = z.blue
 	vim.g.terminal_color_5 = z.violet
 	vim.g.terminal_color_6 = z.cyan
-	vim.g.terminal_color_7 = z.bg1
+	-- 相当于tooggle terminal 里面的 lazygit 的 文字高亮
+	vim.g.terminal_color_7 = z.fg
 	vim.g.terminal_color_8 = z.brown
+	-- lazygit 里面的红色绿色
 	vim.g.terminal_color_9 = z.red
 	vim.g.terminal_color_10 = z.green
 	vim.g.terminal_color_11 = z.yellow
@@ -91,7 +93,7 @@ local syntax = {
 	CursorLine = { fg = z.none, bg = z.bg_highlight },
 	LineNr = { fg = z.base4 },
 	qfLineNr = { fg = z.cyan },
-	CursorLineNr = { fg = z.blue },
+	CursorLineNr = { fg = z.blue, bold = true },
 	DiffAdd = { fg = z.dark_green, bg = z.bg },
 	DiffChange = { fg = z.blue, bg = z.bg },
 	DiffDelete = { fg = z.red, bg = z.bg },
