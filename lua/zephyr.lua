@@ -50,6 +50,7 @@ local z = {
 	cmpsidebar = "#414141",
 	cmpselectline = "#04395E",
 	cmpselectline_text = "#FEFEFE",
+	text = "#bfbfbf",
 }
 
 function z.terminal_color()
@@ -322,6 +323,9 @@ local plugin_syntax = {
 
 	-- nvim-navic
 	-- reference: https://code.visualstudio.com/docs/editor/intellisense
+	NavicSeparator = { fg = z.text },
+	-- navic icon后面的文字高亮
+	NavicText = { fg = z.base6 },
 	NavicIconsFile = { fg = z.base5 },
 	NavicIconsModule = { fg = z.base5 },
 	NavicIconsNamespace = { fg = z.fg },
@@ -353,6 +357,11 @@ local plugin_syntax = {
 	markdownUrl = { fg = z.fg, underline = true },
 	htmlBold = { fg = z.yellow, bold = true },
 	markdownListMarker = { fg = z.magenta },
+
+	-- winbar highlight
+	WinbarFilename = { fg = z.text },
+	WinbarModifySign = { fg = z.text },
+	WinbarBufferNumber = { fg = z.yellow },
 }
 
 local async_load_plugin
