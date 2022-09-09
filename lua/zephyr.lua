@@ -239,7 +239,7 @@ local plugin_syntax = {
 	GitSignsAddLn = { fg = z.dark_green, bg = z.bg },
 	GitSignsChangeLn = { fg = z.blue, bg = z.bg },
 	GitSignsDeleteLn = { fg = z.red, bg = z.bg },
-	GitSignsCurrentLineBlame = { fg = "#bfbfbf", bg = z.bg_highlight },
+	GitSignsCurrentLineBlame = { fg = "#a6abb1", bg = z.bg_highlight },
 
 	SignifySignAdd = { fg = z.dark_green },
 	SignifySignChange = { fg = z.blue },
