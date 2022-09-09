@@ -38,6 +38,7 @@ local z = {
 	teal = "#1abc9c",
 	grey = "#928374",
 	brown = "#c78665",
+	light_brown = "#E1A687",
 	black = "#000000",
 
 	bracket = "#80A0C2",
@@ -155,7 +156,7 @@ local syntax = {
 	SpecialChar = { fg = z.yellow },
 	Type = { fg = z.teal },
 	Function = { fg = z.yellow },
-	String = { fg = z.light_green },
+	String = { fg = z.light_brown },
 	Character = { fg = z.green },
 	Constant = { fg = z.cyan },
 	Macro = { fg = z.cyan },
@@ -181,7 +182,8 @@ local plugin_syntax = {
 	TSKeywordFunction = { fg = z.red },
 	TSProperty = { fg = z.yellow },
 	TSType = { fg = z.teal },
-	TSVariable = { fg = "#bfbfbf" },
+	-- TSVariable = { fg = "#bfbfbf" },
+	TSVariable = { fg = "#f2f2bf" },
 	TSPunctBracket = { fg = z.bracket },
 
 	vimCommentTitle = { fg = z.grey, bold = true },
