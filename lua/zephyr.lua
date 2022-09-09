@@ -348,6 +348,7 @@ local plugin_syntax = {
 	illuminatedCurWord = { bg = z.bg_highlight, undercurl = true },
 
 	-- markdown
+	markdownHeadingRule = { fg = z.cyan, bold = true },
 	markdownHeadingDelimiter = { fg = z.cyan, bold = true },
 	markdownH1 = { fg = z.cyan, bold = true },
 	markdownH2 = { fg = z.cyan, bold = true },
@@ -355,8 +356,10 @@ local plugin_syntax = {
 	markdownH4 = { fg = z.cyan, bold = true },
 	markdownH5 = { fg = z.cyan, bold = true },
 	markdownUrl = { fg = z.fg, underline = true },
+	markdownBold = { fg = z.yellow, bold = true },
 	htmlBold = { fg = z.yellow, bold = true },
 	markdownListMarker = { fg = z.magenta },
+	markdownUrlTitle = { fg = z.light_brown, underline = true },
 
 	-- winbar highlight
 	WinbarFilename = { fg = z.text },
