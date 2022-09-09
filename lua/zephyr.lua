@@ -340,6 +340,17 @@ local plugin_syntax = {
 	-- illuminate
 	illuminateWord = { bg = z.bg_highlight },
 	illuminatedCurWord = { bg = z.bg_highlight, undercurl = true },
+
+	-- markdown
+	markdownHeadingDelimiter = { fg = z.cyan, bold = true },
+	markdownH1 = { fg = z.cyan, bold = true },
+	markdownH2 = { fg = z.cyan, bold = true },
+	markdownH3 = { fg = z.cyan, bold = true },
+	markdownH4 = { fg = z.cyan, bold = true },
+	markdownH5 = { fg = z.cyan, bold = true },
+	markdownUrl = { fg = z.fg, underline = true },
+	htmlBold = { fg = z.yellow, bold = true },
+	markdownListMarker = { fg = z.magenta },
 }
 
 local async_load_plugin
