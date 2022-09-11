@@ -231,8 +231,8 @@ local plugin_syntax = {
 	GitGutterDelete = { fg = z.red },
 	GitGutterChangeDelete = { fg = z.violet },
 
-	GitSignsAdd = { fg = z.dark_green, bg = z.bg },
-	GitSignsChange = { fg = z.blue, bg = z.bg },
+	GitSignsAdd = { fg = z.dark_green, bg = z.dark_green },
+	GitSignsChange = { fg = z.blue, bg = z.blue },
 	GitSignsDelete = { fg = z.red, bg = z.bg },
 	GitSignsAddNr = { fg = z.dark_green, bg = z.bg },
 	GitSignsChangeNr = { fg = z.blue, bg = z.bg },
