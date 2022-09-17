@@ -362,7 +362,7 @@ local plugin_syntax = {
 	markdownUrlTitle = { fg = z.light_brown, underline = true },
 
 	-- winbar highlight
-	WinbarFilename = { fg = z.text },
+	WinbarFilename = { fg = z.text, bold = true },
 	WinbarModifySign = { fg = z.text },
 	WinbarBufferNumber = { fg = z.yellow },
 }
